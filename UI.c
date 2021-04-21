@@ -85,26 +85,26 @@ int getArrow(void)
 // Making the ui of the mainMenu
 void inline firstSelected(void){
     printf("%s", "=> 1) hello\n");
-    printf("%s", "2) hello\n");
-    printf("%s", "3) hello \n");
-    printf("%s", "4) Quit \n");
+    printf("%s", "   2) hello\n");
+    printf("%s", "   3) hello \n");
+    printf("%s", "   4) Quit \n");
 }
 void inline secondSelected(void){
-    printf("%s", "1) hello\n");
+    printf("%s", "   1) hello\n");
     printf("%s", "=> 2) hello\n");
-    printf("%s", "3) hello \n");
-    printf("%s", "4) Quit \n");
+    printf("%s", "   3) hello \n");
+    printf("%s", "   4) Quit \n");
 }
 void inline thirdSelected(void){
-    printf("%s", "1) hello\n");
-    printf("%s", "2) hello\n");
+    printf("%s", "   1) hello\n");
+    printf("%s", "   2) hello\n");
     printf("%s", "=> 3) hello \n");
-    printf("%s", "4) Quit \n");
+    printf("%s", "   4) Quit \n");
 }
 void inline forthSelected(void){
-    printf("%s", "1) hello\n");
-    printf("%s", "2) hello\n");
-    printf("%s", "3) hello \n");
+    printf("%s", "   1) hello\n");
+    printf("%s", "   2) hello\n");
+    printf("%s", "   3) hello \n");
     printf("%s", "=> 4) Quit \n");
 }
 
