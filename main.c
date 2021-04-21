@@ -3,7 +3,6 @@
 
 #include "UI.h"
 int main(){
- 
     
     //welcomeMessage();
     //registrationWindow();
