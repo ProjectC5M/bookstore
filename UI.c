@@ -8,7 +8,7 @@ void welcomeMessage(void)
     puts("\a\t\t**** WELCOME ****\t\t"); // \a is used to make the peep sound while \t to make a Tap space
     puts("\n\t PROTOTYPE OF BOOK STORE");
     puts("\n PREPERED BY:");
-    puts("1) Mohamed Hossny");
+    puts("1) Mohamed Hosny");
     puts("2) Mohamed Ayman");
     puts("3) Mohamed Qurtam");
     puts("4) Mohamed Samy");
