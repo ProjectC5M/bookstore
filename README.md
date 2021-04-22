@@ -19,5 +19,5 @@
         * show every book on the liberary 
 
 ## these are technical details 
-### the whole project is based on linked-lists and all the functions provided operate directly to it.
-### the data is stored in files as a *database* with an extension of `name.txt`
+##### the whole project is based on `linked-lists` and all the functions provided operate directly to it.
+##### the data is stored in files as a *database* with an extension of `name.txt`
