@@ -7,7 +7,7 @@
 void insertFirst(BookInfoPtr *ptr, BookInfo b){
 
     BookInfoPtr newNode=(BookInfoPtr)malloc(sizeof(BookInfo));
-    /*if(newNode != NULL){
+    if(newNode != NULL){
         strcpy(newNode->bookName, b.bookName);
         strcpy(newNode->author, b.author);
         newNode->index=b.index;
@@ -17,9 +17,20 @@ void insertFirst(BookInfoPtr *ptr, BookInfo b){
         newNode->next = NULL;
         BookInfoPtr previous = NULL;
         BookInfoPtr current = *ptr;
-        //        SOME ALGORITH FOR THE INDEX SHOULD BE HERE
-        //
-        while(current != NULL & b.index > current->index){
+        int indexBook = b.index;
+        char indexStringBook[20];
+        itoa(indexBook, indexStringBook,10);
+        strcpy(&indexStringBook[0], &indexStringBook[1]);
+        indexBook = atoi(indexStringBook);
+        
+        int indexCur = 0;
+        if(current != NULL){
+            char indexStringCur[20];
+            itoa(current->index, indexStringCur,10);
+            strcpy(&indexStringCur[0], &indexStringCur[1]);
+            indexCur = atoi(indexStringCur);
+        }
+        while(current != NULL && indexCur < indexBook){
             previous = current;
             current = current->next;
         }
@@ -32,64 +43,5 @@ void insertFirst(BookInfoPtr *ptr, BookInfo b){
             newNode->next = current;
         }
     }
-
-    */if (newNode!=NULL){
-        strcpy(newNode->bookName, b.bookName);
-        strcpy(newNode->author, b.author);
-        newNode->index=b.index;
-        newNode->genre=b.genre;
-        newNode->rating=b.rating;
-        newNode->isBooked=b.isBooked;
-        newNode->next=*ptr;
-        *ptr=newNode;
-    }
     
 }
-/*
-void insertAt(BookInfoPtr *ptr,int loc ,BookInfo b){
-    
-    BookInfoPtr newNode=malloc(sizeof(BookInfo));
-    if (newNode!=NULL){
-
-        strcpy(newNode->bookName, b.bookName);
-        strcpy(newNode->author, b.author);
-        newNode->index=b.index;
-        newNode->genre=b.genre;
-        newNode->rating=b.rating;
-        newNode->isBooked=b.isBooked;
-        newNode->next=NULL;
-        
-        // *ptr=newNode;
-    
-        BookInfoPtr current=*ptr;
-        BookInfoPtr previous=NULL;
-        if (loc==1){
-            insertFirst(ptr,b);
-        }
-        else{   int i;
-                for ( i = 2; i <= loc; i++){
-             previous=current;
-             current = current->next;
-
-        }
-        previous->next=newNode;
-        newNode->next=current;
-        }
-        
-        
-
-    
-         for (int i = 2; i <= loc; i++){
-              previous=current;
-              current = current->next;
-
-         }
-         previous->next=newNode;
-         newNode->next=current;
-               
-    }
-   
-    
-
-    
-}*/
