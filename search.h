@@ -8,6 +8,8 @@
 BookInfoPtr searchBook(BookInfoPtr* , char[]);
 
 
-//void searchauthor(BookInfoPtr* ,char[]);
+void searchauthor(char[]);
+
+BookInfoPtr searchIndex( int );
 
 #endif
