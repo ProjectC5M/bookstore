@@ -328,7 +328,7 @@ void welcomeMessage(void)
 
     //Creating a junky loop to spend time (used as delay function)
     int i = 0, j = 0;
-    for (i = 0; i < 100000; i++)
+    for (i = 0; i < 1000000; i++)
         for (j = 0; j < 15000; j++)
         {
         }
