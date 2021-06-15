@@ -409,7 +409,7 @@ void printGenreMenu(){
     char genre;
     do
     {
-        
+        printf("%s\n","Please,Input the number of the genre that you want to print its books! -From 1 to 5-");
         printf("%s\n","\t 1-Romantic 2-Thriller 3-Horror 4-SciFi 5-Cooking");
         scanf(" %c",&genre);
 
