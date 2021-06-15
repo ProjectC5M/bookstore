@@ -19,7 +19,8 @@ typedef struct bookInfo{
 typedef BookInfo *BookInfoPtr;
 
 
-BookInfoPtr getHead();
-void setHead(BookInfoPtr *);
+
+BookInfoPtr getHead(Genre);
+void setHead(BookInfoPtr *, Genre);
 
 #endif
