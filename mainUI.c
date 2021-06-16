@@ -44,14 +44,14 @@ void showBook(BookInfo ptr){
             printf("Index of the book: %d\n",ptr.index);
             printf("Rating of the book: %d\n",ptr.rating);
             printf("Genre: %s\n", intToGenreString(ptr.genre));
-            printf("isBooked: %s\n",(ptr.isBooked==0)?"Not booked":"Booked");
+            printf("State: %s\n",(ptr.isBooked==0)?"Not booked":"Booked");
 
 }
 
 
 void inline deleteBookMenuSelection(int isBooked ,int select){
     printf("%s1) Delete Book\n",select == 0? "=> ":"");
-    printf("%s2) %s Book\n",select == 1? "=> ":"" ,isBooked? "Retrieve" : "Book" );
+    printf("%s2) %s Book\n",select == 1? "=> ":"" ,isBooked? "Return" : "Book" );
     printf("%s3) Back \n",select == 2? "=> ":"");
 }
 
@@ -89,7 +89,7 @@ void deleteBookMenu(BookInfo ptr){
             else if(select == 1){
                 int result = bookABook(ptr);
                 if(result){
-                    printf("%s", ptr.isBooked?"Retrieved":"Booked");
+                    printf("%s", ptr.isBooked?"Returned":"Booked");
                     getch();
                     system("cls");
                     searchMenu();
@@ -285,6 +285,7 @@ void AddBook(){
     do
     { //Can't duplicate the same book in the same genre
         printf("%s","4) Book Index: ");
+        
     scanf("%u",&book.index);
     char genreString[20];
     itoa((int)book.genre, genreString, 10);
@@ -293,9 +294,9 @@ void AddBook(){
     itoa(book.index, indexString, 10);
     
     strcat(genreString, indexString);
-    book.index = atoi(genreString);
+    //book.index = atoi(genreString);
 
-        if(searchIndex(book.index) != NULL){
+        if(searchIndex(atoi(genreString)) != NULL){
              printf("%d is already exsist\n", book.index);
              }
     } while (searchIndex(book.index) != NULL);
@@ -328,7 +329,7 @@ void welcomeMessage(void)
 
     //Creating a junky loop to spend time (used as delay function)
     int i = 0, j = 0;
-    for (i = 0; i < 1000000; i++)
+    for (i = 0; i < 100000; i++)
         for (j = 0; j < 15000; j++)
         {
         }
@@ -409,7 +410,7 @@ void printGenreMenu(){
     char genre;
     do
     {
-        printf("%s\n","Please,Input the number of the genre that you want to print its books! -From 1 to 5-");
+        
         printf("%s\n","\t 1-Romantic 2-Thriller 3-Horror 4-SciFi 5-Cooking");
         scanf(" %c",&genre);
 
