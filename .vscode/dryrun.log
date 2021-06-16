@@ -1,0 +1,20 @@
+make.exe --dry-run --keep-going --print-directory
+make.exe: Entering directory 'd:/Media/Year 1/2nd Term/Computer/Book Store'
+gcc -Wall   -c -o main.o main.c
+ 
+gcc -Wall   -c -o model.o model.c
+ 
+gcc -Wall   -c -o search.o search.c
+ 
+gcc -Wall   -c -o insert.o insert.c
+ 
+gcc -Wall   -c -o mainUI.o mainUI.c
+ 
+gcc -Wall   -c -o readWriteFiles.o readWriteFiles.c
+ 
+gcc -Wall   -c -o print.o print.c
+ 
+gcc -Wall   -c -o deleteBook.o deleteBook.c
+gcc -Wall -o main main.o model.o search.o insert.o mainUI.o readWriteFiles.o print.o deleteBook.o 
+make.exe: Leaving directory 'd:/Media/Year 1/2nd Term/Computer/Book Store'
+ 

@@ -1,6 +1,19 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "cstddef": "c",
+        "limits": "c",
+        "memory": "c",
+        "system_error": "c",
+        "xiosbase": "c",
+        "xlocale": "c",
+        "xstring": "c",
+        "xutility": "c",
+        "model.h": "c",
+        "search.h": "c",
+        "mainui.h": "c",
+        "insert.h": "c"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.dimInactiveRegions": false
 }

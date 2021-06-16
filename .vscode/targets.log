@@ -1,0 +1,373 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jun 16 13:59:53 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile (from 'Makefile', line 4)
+OBJ = main.o model.o search.o insert.o mainUI.o readWriteFiles.o print.o deleteBook.o
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environme 
+nt
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Media/Year 1/2nd Term/Computer/Book Store
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 2)
+CFLAGS = -Wall
+# environment
+ONEDRIVE = C:\Users\Mohamed Samy\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = C:\Users\Mohamed Samy\AppData\Roaming\Code\CachedData\054a9295330880ed74ceaedda236253b4f39a335
+# environment
+TMP = C:\Users\MOHAME~1\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ba7854ad-1161-4da3-bd35-a018d7d5cbcf-sock
+# environment
+VSCODE_CWD = D:\Media\Year 1\2nd Term\Computer
+# environment
+PATH = C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\WPROGRAMS\Programs\Git\cmd;d:\WPROGRAMS\Programs\nodejs\;C:\Users\Mohamed Samy\AppData\Local\Microsoft\WindowsApps;C:\Users\Mohamed Samy\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin\;D:\Programs\flutter\bin;C:\Python39;C:\Users\Mohamed Samy\AppData\Roaming\npm;C:\adb;D:\WPROGRAMS\Programs\Java\jdk-15.0.1\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Mohamed Samy
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from 'Makefile', line 3)
+LDFLAGS = 
+# environment
+ANDROID_HOME = D:\WPROGRAMS\Programs\Android
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5460_GJWWQNTUMCHCVABC
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = MSAMY
+# environment
+PROGRAMFILES = D:\WPROGRAMS\Programs x86
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Mohamed Samy
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\MSAMY
+# environment
+ONEDRIVECONSUMER = C:\Users\Mohamed Samy\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = MSAMY
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 1)
+CC = gcc
+# environment
+JAVA_HOME = D:\WPROGRAMS\Programs\Java\jdk-15.0.1
+# makefile (from 'Makefile', line 5)
+EXEC = main
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = D:\WPROGRAMS\Programs x86
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Mohamed Samy\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\888bb550806e84c4cbb7bc7e64d776b3-1.56.2-main-sock
+# environment
+HOMEPATH = \Users\Mohamed Samy
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files 
+ (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Mohamed Samy\AppData\Roaming
+# environment
+TEMP = C:\Users\MOHAME~1\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+PTSM_INSTALL_PATH = d:\WPROGRAMS\Programs\Hewlett-Packard\HP ProtectTools Security Manager\Bin
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 3a09
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 5460
+# environment
+USERDOMAIN_ROAMINGPROFILE = MSAMY
+# variable set hash-table stats:
+# Load=100/1024=10%, Rehash=0, Collisions=13/123=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# D:\Programs\flutter\bin (key D:/Programs/flutter/bin, mtime 1622540175): 9 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1622757724): 32 files, no impossibilities.
+# . (key d:/Media/Year 1/2nd Term/Computer/Book Store, mtime 1623334457): 27 files, no impossibilities.
+# C:\MinGW\bin\ (key C:/MinGW/bin/, mtime 1623332843): 58 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# d:\WPROGRAMS\Programs\nodejs\ (key d:/WPROGRAMS/Programs/nodejs/, mtime 1622921889): 11 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1623476732): 115 files, no impossibilities.
+# D:\WPROGRAMS\Programs\Java\jdk-15.0.1\bin (key D:/WPROGRAMS/Programs/Java/jdk-15.0.1/bin, mtime 1622921256): 124 files, no impossibilities.
+# C:\Users\Mohamed Samy\AppData\Roaming\npm (key C:/Users/Mohamed Samy/AppData/Roaming/npm, mtime 1623457095): 12 files, no impossibilities.
+# C:\Python39 (key C:/Python39, mtime 1613770985): 18 files, no impossibilities.
+# C:\Users\Mohamed Samy\AppData\Local\Microsoft\WindowsApps (key C:/Users/Mohamed Samy/AppData/Local/Microsoft/WindowsApps, mtime 1623515583): 25 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1623476742): 173 files, no imposs 
+ibilities.
+# C:\adb (key C:/adb, mtime 1602920899): 19 files, no impossibilities.
+# C:\Users\Mohamed Samy\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Mohamed Samy/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1622923648): 4 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1623784985): 2866 files, no impossibilities.
+# D:\WPROGRAMS\Programs\Git\cmd (key D:/WPROGRAMS/Programs/Git/cmd, mtime 1622921364): 8 files, no impossibilities.
+
+# 3501 files, no impossibilities in 16 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: main
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+deleteBook.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+print.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+cleanTxt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	del *.txt
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-06-16 13:58:03
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 14):
+	del *.o
+
+open: main clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 17):
+	$(EXEC).exe
+
+# Not a target:
+insert.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+mainUI.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+main: main.o model.o search.o insert.o mainUI.o readWriteFiles.o print.o deleteBook.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 10):
+	$(CC) $(CFLAGS) -o $(EXEC) $(OBJ) $(LDFLAGS)
+
+# Not a target:
+main.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+search.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+readWriteFiles.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+model.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats 
+make.exe: *** No rule to make target 'main.o', needed by 'main'.  Stop.
+ 
+:
+# Load=16/1024=2%, Rehash=0, Collisions=0/39=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 7 (6) / strings = 3469 / storage = 52578 B / avg = 15 B
+# current buf: size = 8174 B / used = 3577 B / count = 217 / avg = 16 B
+# other used: total = 44404 B / count = 3252 / avg = 13 B
+# other free: total = 43 B / max = 9 B / min = 4 B / avg = 7 B
+
+# strcache performance: lookups = 3544 / hit rate = 2%
+# hash-table stats:
+# Load=3469/8192=42%, Rehash=0, Collisions=1203/3544=34%
+# Finished Make data base on Wed Jun 16 13:59:53 2021
+
+ 
